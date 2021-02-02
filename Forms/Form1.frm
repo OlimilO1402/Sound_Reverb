@@ -127,7 +127,7 @@ Private Sub Form_Load()
     CbGVerb.ListIndex = 0
     TxFilename = DefaultFileName
     
-    File_Read SndDry, App.Path & "\" & "Reverb_Test17.wav"
+    File_Read SndDry, App.Path & "\Resources\" & "Reverb_Test17.wav"
     
     'um es möglichst einfach zu halten werden die Parameter vorweg hier bestimmt
     DataOffset = 88 / 4
